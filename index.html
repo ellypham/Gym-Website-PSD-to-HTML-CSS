@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gym Website</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<!-- Top header bar above the nav -->
+	<nav class="navHead">
+		<div class="headContact clearfix">
+			<ul>
+				<li><img src="assets/icons/topnav-envelope.png"></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><img src="assets/icons/topnav-cellphone.png"></li>
+				<li><a href="#">Dial Our Number</a></li>
+			</ul>
+		</div>
+
+		<div class="headSocialIcons clearfix">
+			<ul>
+				<li><img src="assets/icons/topnav-social-facebook.png">
+				<p class="overlay"></p>
+				</li>
+				<li><img src="assets/icons/topnav-social-twitter.png">
+				<p class="overlay"></p></li>
+				<li><img src="assets/icons/topnav-social-vimeo.png">
+				<p class="overlay"></p>
+				</li>
+			
+				<form action="search">
+					<span class="searchglass">
+						<input type="search" placeholder="">
+						<img src="assets/icons/topnav-magnifyingglass.png">
+					</span>
+				</form>
+			
+			</ul>
+		</div>
+
+	</nav>
+	<!-- Top header bar -->
+
+<!-- Navigation Bar -->
+	<nav class="clearfix">
+		<div class="navBar">
+			<ul class="clearfix">
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">Membership</a></li>
+				<li><a href="#">Personal Training</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+<!-- Header -->
+	<header class="imageBackground">
+			<h1><span class="imageBackgroundText">Daily Training</span></h1>
+			<h1><span class="imageBackgroundText">Made Much Easier</span></h1>
+			
+			<div class="headerButton headerButton1">
+				<img src="assets/boxes/header-redbutton-long.png">
+				<h3 class="findOut">Find Out More</h3>
+			</div>
+
+			<div class="headerButton headerButton2">
+				<img src="assets/boxes/header-blackbutton-long.png">
+				<h3>Get The App Now</h3>
+			</div>
+	</header>
+
+	<div class="BlackBackground"></div>
+
+
+<!-- /header -->
+
+<!-- Beginning of main wrapper -->
+<section class="bodyWrapper"> 
+
+
+<!-- Spotlight and Form Section -->
+	<!-- <div class="spotlightForm"> -->
+<!-- Spotlight Section -->
+	<section class="spotlight">
+		<ul class=" imgSpotlight clearfix">
+			<li>
+				<img src="assets/images/mainLP-slider01.jpg" alt="spin class">
+					<div class="overlay">
+						<h3>This is a headline for our post</h3>
+						<p>This is a short paragraph that we have written now</p>
+					</div>
+			</li>
+			<li>
+				<img src="assets/images/mainLP-slider02.jpg" alt="fitness class">
+					<div class="overlay">
+						<h3>This is a headline for our post</h3>
+						<p>This is a short paragraph that we have written now</p>
+					</div>
+			</li>
+			<li>
+				<img src="assets/images/mainLP-slider03.jpg" alt="fitness class">
+					<div class="overlay">
+						<h3>This is a headline for our post</h3>
+						<p>This is a short paragraph that we have written now</p>
+					</div>
+			</li>
+			<li>
+				<img src="assets/images/mainLP-slider04.jpg" alt="fitness male">
+					<div class="overlay">
+						<h3>This is a headling for our post</h3>
+						<p>This is a short paragraph that we have written now</p>
+					</div>
+			</li>
+		</ul>
+	</section>
+
+<!-- /spotlight section -->
+
+<!-- Search Gym Section -->
+	<section>
+
+	<div class="searchGym">
+
+	<form action="select" class="formSelect">
+
+		<ul>
+			<li>
+				<select name="region" id="region">
+					<option value="Select a Region"selected>Select a Region</option>
+					<option value="Alberta">Alberta</option>
+					<option value="British Columbia">British Columbia</option>
+					<option value="Manitoba">Manitoba</option>
+					<option value="NewBrunswick">New Brunswick</option>
+					<option value="NewfoundlandandLabrador">Newfoundland and Labrador</option>
+					<option value="NorthwestTerritories">Northwest Territories</option>
+					<option value="NovaScotia">Nova Scotia</option>
+					<option value="Nunavut">Nunavut</option>
+					<option value="Ontario">Ontario</option>
+					<option value="Prince Edward Island">Prince Edward Island</option>
+					<option value="Quebec">Quebec</option>
+					<option value="Saskatchewan">Saskatchewan</option>
+					<option value="Yukon">Yukon</option>
+				</select>
+			</li>
+
+			<li>
+				<select name="city" id="city">
+					<option value="Choose Your City"selected>Choose Your City</option>
+					<option value="Barrie">Barrie</option>
+					<option value="Belleville">Belleville</option>
+					<option value="Brampton">Brampton</option>
+					<option value="Brant">Brant</option>
+					<option value="Brantford">Brantford</option>
+					<option value="Brockville">Brockville</option>
+					<option value="Burlington">Burlington</option>
+					<option value="Cambridge">Cambridge</option>
+					<option value="ClarenceRockland">Clarence-Rockland</option>
+					<option value="Cornwall">Cornwall</option>
+					<option value="Dryden">Dryden</option>
+					<option value="ElliotLake">Elliot Lake</option>
+					<option value="GreaterSudbury">Greater Sudbury</option>
+					<option value="Guelph">Guelph</option>
+					<option value="HaldimandCounty">Haldimand Countu</option>
+					<option value="Hamilton">Hamilton</option>
+					<option value="Hamilton">Hamilton</option>
+					<option value="KawarthaLakes">Kawartha Lakes</option>
+					<option value="Kenora">Kenora</option>
+					<option value="Kingston">Kingston</option>
+					<option value="Kitchener">Kitchener</option>
+					<option value="London">London</option>
+					<option value="Markham">Makham</option>
+					<option value="Mississauga">Mississauga</option>
+					<option value="NiagaraFalls">Niagara Falls</option>
+					<option value="NorfolkCounty">Norfolk County</option>
+					<option value="NorthBay">North Bay</option>
+					<option value="Orillia">Orillia</option>
+					<option value="Oshawa">Oshawa</option>
+					<option value="Ottawa">Ottawa</option>
+					<option value="OwenSound">Owen Sound</option>
+					<option value="Pembroke">Pembroke</option>
+				</select>
+			</li>
+
+			<li>
+				<select name="gymLocation" id="gymLocation">
+					<option value="SelectGym">Select Gym</option>
+					<option value="DowntownBrampton">Downtown Brampton</option>
+					<option value="BramaleaCityCenter">Bramalea City Center</option>
+					<option value="ShoppersWorld">Shoppers World</option>
+					<option value="SquareOne">Square One</option>
+					<option value="EatonCenter">Eaton Center</option>
+					<option value="DufferinMall">Dufferin Mall</option>
+				</select>
+			</li>
+
+			<li>
+				<div class="inputSearch">
+					<input type="searchBox" placeholder="Search for specs...">
+				</div>
+				
+			</li>
+		</u>
+	</form>
+
+	</div>
+
+	
+
+	</section>
+<!-- Search Gym section -->
+
+
+<!-- Feature Section -->
+	<section class="feature">
+		<ul class="featureSection clearfix">
+			<li>
+				<img src="assets/images/mainLP-feature01.jpg" alt="spinning class image">
+
+				<div class="cycle clearfix">
+					<div class="cycleContent">
+					<h3>Extreme Cyclism</h3>
+					</div>
+					<div class="cycleButton">
+						<h3>Apply Now</h3>
+					</div>
+				</div>
+				
+			</li>
+			<li>
+				<img src="assets/images/mainLP-feature02.jpg" alt="fitness male image">
+
+				<div class="fitnessMan clearfix">
+					<div class="fitnessManContent">
+						<h3>Hard Training</h3>
+					</div>
+					<div class="fitnessManButton">
+						<h3>Apply Now</h3>
+					</div>
+				</div>
+			</li>
+
+			<li>
+				<img src="assets/images/mainLP-feature03.jpg" alt="fitness male image">
+
+				<div class="fitnessMan clearfix">
+					<div class="fitnessManContent">
+						<h3>Group Fitness</h3>
+					</div>
+					<div class="fitnessManButton">
+						<h3>Apply Now</h3>
+					</div>
+				</div>
+			</li>
+		</ul>		
+	</section>
+<!-- /Feature section -->
+
+<!-- Article Section -->
+	<div class="topArticle clearfix"></div>
+	<section class ="featuredArticles clearfix">
+		<article class="groupFitnessClass">
+			<img src="assets/images/mainLP-article01.jpg" alt="fitness class image">
+			<div class="groupFitnessContent">
+				<h3>Group fitness lessons start again on Friday mornings at 02:45 PM</h3>
+				<p>We will be starting our group program, right before you drink your usual protein shake/tea</p>
+				<button>Read More</button>
+			</div>
+		</article>
+		<div class="greyBorder"></div>
+		</div>
+		<article class="absClass">
+			<img src="assets/images/mainLP-article02.jpg" alt="fitness woman image">
+			<div class="absClassContent">
+				<h3>ABS Show-off session with our professional trainer, Margaret Trattorie</h3>
+				<p>If you were thinking about a body recomposition then this course will help you achieve it in less time.</p>
+				<button>Read More</button>
+			</div>
+		</article>
+		<div class="greyBorder"></div>
+		</div>
+		<article class="yogaClass">
+			<img src="assets/images/mainLP-article03.jpg" alt="yoga class image">
+			<div class="yogaClassContent">
+			<h3>Yoga classes will start again every Saturday</h3>
+			<p>Yoga has been named the sport of the year by several big fitness organizations</p>
+			<button>Read More</button>
+			</div>
+		</article>
+		<div class="lastBorder"></div>
+		</div>
+		<article class="weightClass">
+			<img src="assets/images/mainLP-article04.jpg" alt="weight lifting class image">
+			<div class="weightClassContent">
+				<h3>Biceps curl master-class with Antoine Jemm at 09:45AM on Mondays</h3>
+				<p>We will be starting our group programme, right before you drink your usual morning protein shake/tea.</p>
+				<button>Read More</button>
+			</div>
+		</article>
+
+		<div class="lpBottomBorder">
+			<img src="assets/boxes/mainLP-dropdown-bg.jpg">
+		</div>
+		
+	</section>
+<!-- /Article Section -->
+
+<!-- Feature Trainer Section -->
+
+		<div class="trainerAlysa">
+			<img src="assets/boxes/mainLP-sidebar-banner.jpg" alt="Trainer Alysa Smith Picture">
+			<h3 class="meetTrainer">Meet Our Trainers: Alysa Smith</h3>
+			<h3 class="starting">Starting At: $399 for 3 months of Classes</h3>
+			<p class="refund">If you are not satisfied, we can refund you.</p>
+		</div>
+	
+<!-- /Feature Trainer Section -->
+
+<!-- Social Media Account Section -->
+	<section class="socialMedia clearfix">
+		<h3>Our Social Media Accounts</h3>
+		<ul>
+			<li>
+				<img src="assets/icons/sidebar-social-wordpress.png" alt="Word Press Icon">
+			</li>
+			<li>
+				<img src="assets/icons/sidebar-social-twitter.png" alt="Twitter Icon">
+			</li>
+			<li>
+				<img src="assets/icons/sidebar-social-facebook.png" alt="Facebook Icon">
+			</li>
+			<li>
+				<img src="assets/icons/sidebar-social-rss.png" alt="Rss Feed Icon">
+			</li>
+			<li>
+				<img src="assets/icons/sidebar-social-digg.png" alt="Digg Icon">
+			</li>
+			<li>
+				<img src="assets/icons/sidebar-social-star.png" alt="Star Icon">
+			</li>
+		</ul>
+	</section>
+<!-- /Social Media Account Section -->
+
+<!-- Calendar Section -->
+
+	<section class="calendar">
+		<h3>Upcoming Gym Classes</h3>
+
+		<div class="calSched clearfix">
+			<div class="calendarIcon">
+				<img src="assets/boxes/sidebar-calendarday.jpg">
+				<h2>Feb</h2>
+				<p>23</p>
+			</div>
+			<div class="calSchedContent">
+				<h2>Josef Rakich Abs Show-Off</h2>
+				<p>One of the top-world fitness-men will show off his technique then.</p>
+			</div>
+		</div>
+
+		<div class="thinGreyBorder"></div>
+
+		<div class="calSched">
+			<div class="calendarIcon">
+				<img src="assets/boxes/sidebar-calendarday.jpg">
+				<h2>Feb</h2>
+				<p>28</p>
+			</div>
+			<div class="calSchedContent">
+				<h2>Biceps Curl Session (06)</h2>
+				<p>This course will teach you about all you wish to achieve.</p>
+			</div>
+		</div>
+
+		<div class="thinGreyBorder"></div>
+
+		<div class="calSched">
+			<div class="calendarIcon">
+				<img src="assets/boxes/sidebar-calendarday.jpg">
+				<h2>Mar</h2>
+				<p>05</p>
+			</div>
+			<div class="calSchedContent">
+				<h2>Weight Loss Gym Courses</h2>
+				<p>If you want to change your body then this course is the only one you'll need.</p>
+			</div>
+		</div>
+
+	</section>
+</section>
+<!-- End of Body Wrapper -->
+
+<!-- Footer Section -->
+
+<footer>
+	<div class="greyFooterBar"><div>
+	<div class="footerHead">
+			<ul>
+				<li>
+					<div class="footerReadMore">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolorem, deleniti! Corporis nesciunt eos praesentium? Voluptatibus ducimus, labore sit!</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, blanditiis cum voluptatum minus! Voluptatibus, illum nobis doloribus dolores culpa corporis earum quam similique et nisi. Ad, placeat, ab! Aut, quae.</p>
+						<button>Read More</button>
+					</div>
+				</li>
+
+
+				<li>
+				<div class="footerArticle">
+					<div class="fitnessClassThumb">
+						<div class="fitnessClassThumbImg">
+						<img src="assets/images/footer-thumb01.jpg">
+						</div>
+						<div class="fitnessClassContent">
+						<h3>Men Hard Fitness Class</h3>
+						<p>Lorem ipsum dolor sit amet, plebes ing elit, sed do elusmod tempor.</p>
+						</div>
+					</div>
+					<div class="fitnessAbsThumb">
+						<div class="fitnessAbsThumImg">
+						<img src="assets/images/footer-thumb02.jpg">
+						</div>
+						<div class="fitnessAbsContent">
+						<h3>4X Ton Abs Training</h3>
+						<p>Lorem ipsum dolor sit amet, plebes ing elit, sed do elusmod tempor.</p>
+						</div>
+					</div>
+					<div class="outdoorThumb">
+						<div class="outdoorThumImg">
+						<img src="assets/images/footer-thumb03.jpg">
+						</div>
+						<div class="outdoorThumbContent">
+						<h3>Outdoor Football Session</h3>
+						<p>Lorem ipsum dolor sit amet, plebes ing elit, sed do elusmod tempor.</p>
+						</div>
+					</div>
+				</div>
+				</li>
+		
+				<li>
+				<div class="footerSubscribe">
+
+				<div class="formSubscribe">
+					<h3>Subscribe to our newsletter</h3>
+					<form>
+						<input type="text" placeholder="Input your email address...">
+						<button>Subscribe</button>
+					</form>
+				</div>
+
+				<div class="subscribeContent">
+					<p>We can guarantee that you will never have your e-mail address shared.</p>
+				</div>
+					<div class="footerSocial clearfix">
+						<ul>
+							<li>
+								<img src="assets/icons/footer-social01.png">
+							</li>
+							<li>
+								<img src="assets/icons/footer-social02.png">
+							</li>
+							<li>
+								<img src="assets/icons/footer-social03.png">
+							</li>
+							<li>
+								<img src="assets/icons/footer-social04.png">
+							</li>
+						</ul>
+					</div>
+				</div>
+				</li>
+			</ul>
+				
+			</div>
+	</div>
+</footer>
+<!-- /Footer Section -->
+
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
